@@ -108,7 +108,8 @@ class WindowCapture:
 
         ## 删除Alpha通道
         img = img[..., :3]
-        # 制作图像
+        
+        ## 制作图像
         img = np.ascontiguousarray(img)
 
         return img
